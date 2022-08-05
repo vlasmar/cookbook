@@ -1,3 +1,3 @@
 function shareButton (){
-    alert("recipe-page.html");
+    alert(window.location.href);
 }
