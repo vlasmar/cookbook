@@ -55,3 +55,37 @@ body{
     font-weight: 700;
     padding-bottom: 15rem;
 }
+
+.btn_wrap {
+    position: relative;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 5rem;
+}
+
+.btn_wrap:hover {
+    /* transition-delay: .4s; */
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    cursor: pointer;
+}
+
+span {
+    width: 12rem;
+    position: absolute;
+    border-radius: 80px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 70px;
+    letter-spacing: 2px;
+    color: #EEEEED;
+    background-color: #1F1E1E;
+    padding: 0 18px;
+    -webkit-transition: all 1.2s ease;
+    transition: all 1.2s ease;
+}
