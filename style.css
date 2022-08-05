@@ -2,11 +2,12 @@ body{
     margin: 0;
     padding: 0;
 }
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 .image-header{
         height: 100vh;
         min-height: 530px;
-        background-image: url('https://images.unsplash.com/photo-1658085190746-8e78c0c15e7c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDI5fHhqUFI0aGxrQkdBfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60');
+        background-image: url('images/background.avif');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -88,4 +89,12 @@ span {
     padding: 0 18px;
     -webkit-transition: all 1.2s ease;
     transition: all 1.2s ease;
+}
+#chocolate{
+    font-family: 'Lobster', cursive;
+    font-size: 4rem;
+    color:#e01a1a;
+}
+#chocolate:hover{
+    color:#e01a6c;
 }
