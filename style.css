@@ -15,3 +15,33 @@ body{
 .btn{
     background-color: orangered !important;
 }
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.card:hover .image {
+    opacity: 0.3;
+}
+
+.card:hover .middle {
+    opacity: 1;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text {
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 15rem;
+}
